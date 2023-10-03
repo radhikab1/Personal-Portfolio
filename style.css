@@ -100,6 +100,23 @@ nav ul li a:hover::after{
     margin: 80px 0;
 }
 
+.btn2{
+    display: block;
+    margin: 20px 0;
+    width: fit-content;
+    border: 1px solid #7436f2;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transform: background 0.5s;
+    font-size: 14px;
+}
+
+.btn2:hover{
+    background: #7436f2;
+}
+
 .about-col-2{
     flex-basis: 60%;
 }
@@ -198,7 +215,7 @@ nav ul li a:hover::after{
 } */
 
 .experience-list div:hover{
-    background: #4713af9c;
+    background: #854ef4;
     transform: translateY(-10px);
 }
 
@@ -233,7 +250,7 @@ nav ul li a:hover::after{
 
 /* ------------projects------------- */
 #projects{
-    padding: 50px 0;
+    padding: 70px 0;
 }
 
 .projects-list{
@@ -283,7 +300,7 @@ nav ul li a:hover::after{
     transition: height 0.5s;
 }
 
-.layer h2{
+.layer h3{
     font-weight: 800;
     margin-bottom: 20px;
 }
@@ -294,10 +311,10 @@ nav ul li a:hover::after{
     /* color: rgb(9, 9, 173); */
     color: #7436f2;
     font-size: 18px;
-    line-height: 60px;
+    line-height: 40px;
     background: #fff;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
 }
 
@@ -323,4 +340,54 @@ nav ul li a:hover::after{
 
 .btn:hover{
     background: #7436f2;
+}
+
+/* ------------contact------------- */
+.contact-left{
+    flex-basis: 35%;
+}
+
+.contact-right{
+    flex-basis: 60%;
+}
+
+.contact-left a{
+    margin: 10px;
+    text-decoration: none;
+}
+
+.contact-left p{
+    color: #ababab;
+    font-size: 14px;
+}
+
+.contact-left p i{
+    color:#7436f2;
+    margin-right: 10px;
+    font-size: 25px;
+    
+}
+
+.btn.btn3{
+    display: inline-block;
+    background: #7436f2;
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 14px 40px;
+}
+
+.contact-right form{
+    width: 100%;
+}
+
+form input, textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
 }
