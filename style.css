@@ -6,7 +6,7 @@
 }
 
 body{
-    background: #000000;
+    background: #080808;
     color: #fff;
 }
 
@@ -35,20 +35,23 @@ nav {
     height: 10%;
 }
 
-nav ul li{
+.sections{
+    margin-left: -150px;
+}
+.sections li{
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
 }
 
-nav ul li a{
+.sections li a{
     color: #fff;
     text-decoration: none;
     font-size: 18px;
     position: relative;
 }
 
-nav ul li a::after{
+.sections a::after{
     content: '';
     width: 0;
     height: 3px;
@@ -60,8 +63,24 @@ nav ul li a::after{
     transition: 0.5s;
 }
 
-nav ul li a:hover::after{
+.sections a:hover::after{
     width: 100%;
+}
+
+
+
+.icons a{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
+
+.icons a:hover {
+    color: #7436f2;
 }
 
 .header-text{
