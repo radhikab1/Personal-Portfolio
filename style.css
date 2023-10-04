@@ -394,9 +394,6 @@ nav {
 .btn.btn3{
     display: inline-block;
     background: #7436f2;
-    cursor: pointer;
-    margin-top: 15px;
-    padding: 14px 40px;
 }
 
 .contact-right form{
@@ -415,7 +412,20 @@ form input, textarea {
     border-radius: 6px;
 }
 
+form .btn3{
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 14px 40px;
+}
+
+
 /*------------------css for small screens-------------------*/
 @media only screen and (max-width: 600px){
 
+}
+
+#msg{
+    color: #2adcf8;
+    margin-top: -40px;
+    display: block;
 }
