@@ -235,6 +235,13 @@ nav {
     margin-bottom: 15px;
 }
 
+.experience-list div ul{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 /* .experience-list div a{
     text-decoration: none;
     color: #fff;
@@ -325,7 +332,7 @@ nav {
     flex-direction: column;
     padding: 0 40px;    
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     transition: height 0.5s;
 }
 
