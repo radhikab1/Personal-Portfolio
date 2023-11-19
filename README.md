@@ -1,4 +1,4 @@
-## Personal-Portfolio
+# Personal-Portfolio
 
 ## About
 ▪ Designed a responsive personal portfolio website utilizing JavaScript, HTML, and CSS <br>
